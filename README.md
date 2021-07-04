@@ -27,21 +27,25 @@
 ### npm 安装
 
 ```shell
-$ npm install @jiaminghi/data-view-react
+$ npm install @careteen/data-view-react
 ```
+
+> Fork自 https://github.com/DataV-Team/DataV-React
+
+> 扩展：增加一个scroll去控制`scrollBoard`的暂停
 
 ### 使用
 
 ```js
-import * as datav from "@jiaminghi/data-view-react";
+import * as datav from "@careteen/data-view-react";
 
 datav.BorderBox1;
 
 // 或者
-import { BorderBox1 } from "@jiaminghi/data-view-react";
+import { BorderBox1 } from "@careteen/data-view-react";
 
 // 按需引入
-import BorderBox1 from "@jiaminghi/data-view-react/es/borderBox1";
+import BorderBox1 from "@careteen/data-view-react/es/borderBox1";
 ```
 
 详细文档及示例请移步[HomePage](http://datav-react.jiaminghi.com).
